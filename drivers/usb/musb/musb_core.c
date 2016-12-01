@@ -1022,7 +1022,7 @@ void musb_start(struct musb *musb)
 
 	/* put into basic highspeed mode and start session */
 	musb_writeb(regs, MUSB_POWER, MUSB_POWER_ISOUPDATE
-			| MUSB_POWER_HSENAB
+//			| MUSB_POWER_HSENAB - chaned by DA to force USB in full_speed mode
 			/* ENSUSPEND wedges tusb */
 			/* | MUSB_POWER_ENSUSPEND */
 		   );

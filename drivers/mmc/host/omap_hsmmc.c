@@ -144,7 +144,7 @@
 #define MMC_TIMEOUT_MS		20		/* 20 mSec */
 #define MMC_TIMEOUT_US		20000		/* 20000 micro Sec */
 #define OMAP_MMC_MIN_CLOCK	400000
-#define OMAP_MMC_MAX_CLOCK	52000000
+#define OMAP_MMC_MAX_CLOCK	13000000  /* Reduced to 13MHz for EMC */
 #define DRIVER_NAME		"omap_hsmmc"
 
 #define VDD_1V8			1800000		/* 180000 uV */
